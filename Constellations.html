@@ -4,37 +4,512 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Constellations</title>
     <link rel = "icon" href = "favicon-16x16.png" type = "image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body style = "background-color:powderblue;">
-    <center>
-      <h1 style="font-family:cursive; color:#270082;">Constellations</h1>
+  <center>
+  <body>
+    <header>
     <table>
       <tr>
-        <td><img src="Constellations\Andromeda-AND.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Aquila.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Aries.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Aquarius.gif" width="300" height="200"></td>
-      </tr>
-      <tr>
-        <td><img src="Constellations\Auriga.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Bootes.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Cancer.gif" width="300" height="200"></td>
-        <td><img src="Constellations\CanisMajor.gif" width="300" height="200"></td>
-      </tr>
-      <tr>
-        <td><img src="Constellations\Capricornus.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Carina.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Cassiopeia.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Centaurus.gif" width="300" height="200"></td>
-      </tr>
-      <tr>
-        <td><img src="Constellations\Cetus.gif" width="300" height="200"></td>
-        <td><img src="Constellations\Corvus.gif" width="300" height="200"></td>
-        <td><img src="Constellations\CoronaAustralis.gif" width="300" height="200"></td>
-        <td><img src="Constellations\CoronaBorealis.gif" width="300" height="200"></td>
-      </tr>
-    </table>
-    <h4 style="font-family:courier;"><a href="index.html">Home</a></h4>
-    </center>
+        <td><img src = "night sky ptotos\1 solar system\eclipses\annular_seip_big.jpg" height="100" width="100"  class="rounded-circle" usemap="#icon"></td>
+          <td><h1>Constellations</h1></td>
+        </tr>
+      </table>
+      <map name = "icon">
+        <area shape="default" href="index.html">
+      </map>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Home Page" class="btn" onclick="document.location='index.html'"><i class="fa fa-home"></i> Home</button></li>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Scientists" class="btn" onclick="document.location='Scientists.html'">Scientists</button></li>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Planets" class="btn" onclick="document.location='Planets.html'">Planets</button></li>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Telescopes" class="btn" onclick="document.location='telescope.html'">Telescopes</button></li>
+        </ul>
+      </nav>
+    <article>
+        <div id="section1" class="container-fluid bg-primary text-white" style="padding:100px 20px;">
+          <!-- Section 1-->
+          <div>
+            <h2>Sun Signs</h2>
+          </div>
+              <!--<h2>Sun Signs</h2>-->
+            <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="8"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="9"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="10"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="11"></button>
+              </div>
+
+              <!-- The slideshow/carousel -->
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="c" src="Constellations\Aries.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Taurus.gif" class="d-block">>
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Gemini.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Cancer.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Leo.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Virgo.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Libra.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Scorpius.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Sagittarius.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Capricornus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Aquarius.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Pisces.gif"class="d-block">
+                </div>
+              </div>
+
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                <span  class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next"  type="button" data-bs-target="#demo" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+          </div>
+
+        <div id="section2" class="container-fluid bg-secondary" style="padding:100px 20px;">
+          <!-- Section 2-->
+          <div class="heading_cons">
+            <h2>Northern Sky</h2>
+          </div>
+            <div id="demo1" class="carousel slide" data-bs-ride="carousel">
+
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="8"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="9"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="10"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="11"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="12"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="13"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="14"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="15"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="16"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="17"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="18"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="19"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="20"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="21"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="22"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="23"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="24"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="25"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="26"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="27"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="28"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="29"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="30"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="31"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="32"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="33"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="34"></button>
+                <button type="button" data-bs-target="#demo1" data-bs-slide-to="35"></button>
+              </div>
+
+
+              <!-- The slideshow/carousel -->
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="c" src="Constellations\Andromeda-AND.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Aries.gif" class="d-block">>
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Auriga.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Aquila.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Bootes.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Cancer.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\CanisMajor.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\CanisMinor.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\CanesVenatici.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Cassiopeia.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Cepheus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\ComaBerenices.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\CoronaBorealis.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Cygnus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Delphinus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Draco.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Equuleus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Gemini.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Hercules.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Lacerta.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Leo.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\LeoMinor.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Lyra.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Lynx.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Monoceros.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Orion.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Pegasus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Perseus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Pisces.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\SerpensCaput.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\SerpensCauda.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Taurus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Triangulum.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\UrsaMajor.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\UrsaMinor.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Vulpecula.gif"class="d-block">
+                </div>
+              </div>
+
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo1" data-bs-slide="prev">
+                <span  class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo1" data-bs-slide="next">
+                <span  class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+        </div>
+
+        <div id="section3" class="container-fluid bg-primary text-white" style="padding:100px 20px;">
+          <div class="heading_cons">
+            <h2>Southen Sky</h2>
+          </div>
+            <div id="demo2" class="carousel slide" data-bs-ride="carousel">
+
+              <!-- Indicators/dots -->
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="2"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="3"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="4"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="5"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="6"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="7"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="8"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="9"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="10"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="11"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="12"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="13"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="14"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="15"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="16"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="17"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="18"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="19"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="20"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="21"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="22"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="23"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="24"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="25"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="26"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="27"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="28"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="29"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="30"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="31"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="32"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="33"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="34"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="35"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="36"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="37"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="38"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="39"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="40"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="41"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="42"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="43"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="44"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="45"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="46"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="47"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="48"></button>
+                <button type="button" data-bs-target="#demo2" data-bs-slide-to="49"></button>
+              </div>
+
+
+              <!-- The slideshow/carousel -->
+
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="c" src="Constellations\Antilia.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Apus.gif" class="d-block">>
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Aquarius.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Ara.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Caelum.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Camelopardalis.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Capricornus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Carina.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Centaurus.gif"class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Chamaeleon.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Circinus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Columba.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Corvus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Crater.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Crux.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Dorado.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Eridanus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Fornax.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Grus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Horologium.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Hydra.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Hydrus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Indus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Lepus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Libra.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Lupus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Mensa.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Microscopus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Musca.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Norma.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Octans.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Ophiuchus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Pavo.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Phoenix.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Pictor.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\PiscisAustrinus.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Puppis.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Pyxis.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Reticulum.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Sagitta.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Sagittarius.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Scorpius.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Sculptor.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Sextans.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Telescopium.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\TriangulumAustralis.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Tucana.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Vela.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Virgo.gif" class="d-block">
+                </div>
+                <div class="carousel-item">
+                  <img class="c" src="Constellations\Volans.gif" class="d-block">
+                </div>
+              </div>
+
+              <!-- Left and right controls/icons -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#demo2" data-bs-slide="prev">
+                <span  class="carousel-control-prev-icon"></span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#demo2" data-bs-slide="next">
+                <span  class="carousel-control-next-icon"></span>
+              </button>
+            </div>
+        </div>
+    </article>
+    </section>
+    <footer>
+      <p>Author: Ojas Deodhar</p>
+      <button id="id2" class="btn1" data-bs-toogle="tooltip" title="Contact Us" onclick="document.location='contact.html'">Contact Us</button>
+      <button id="id2" class="btn2" data-bs-toogle="tooltip" title="Give Feedback" onclick="document.location='RateUs.html'">Rate Us</button>
+    </footer>
+  </center>
   </body>
 </html>

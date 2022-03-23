@@ -4,17 +4,71 @@
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Astromony Guide</title>
     <link rel = "icon" href = "favicon-16x16.png" type = "image/x-icon">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
-  <body style = "background-color:powderblue;">
-    <center>
-      <h1 style="font-family: system-ui; color:#270082;">My Astronomy Guide</h1>
-      <img src = "night sky ptotos\5 Galaxies\5 Interacting Galaxy\Hubble_Interacting_Galaxy_NGC_6050_(2008-04-24).jpg" width="500" height="400">
-      <hr>
-      <h2 style="font-family:courier;">"My Astronomy Guide" is a great place to learn a lot many aspects related to Astronomy.</h2>
-      <h2>Do explore to deep dive into the ocean of Astronomy!!</h2>
-      <hr>
-      <button onclick="document.location='Constellations.html'">Constellations</button>
-      <button onclick="document.location='Scientists.html'">Scientists</button>
-    </center>
+  <center>
+  <body>
+    <header>
+    <table>
+      <tr>
+        <td><img src = "night sky ptotos\1 solar system\eclipses\annular_seip_big.jpg" height="100" width="100"  class="rounded-circle" usemap="#icon"></td>
+        <td><h1>My Astronomy Guide</h1></td>
+      </tr>
+    </table>
+    <map name = "icon">
+      <area shape="default" href="index.html">
+    </map>
+    </header>
+    <section>
+      <nav>
+        <ul>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Constellations" class="btn" onclick="document.location='Constellations.html'">Constellations</button></li>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Scientists" class="btn" onclick="document.location='Scientists.html'"></i>Scientists</button></li>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Planets" class="btn" onclick="document.location='Planets.html'">Planets</button></li>
+          <li><button id="id2" data-bs-toogle="tooltip" title="Telescopes" class="btn" onclick="document.location='telescope.html'">Telescopes</button></li>
+        </ul>
+      </nav>
+      <article>
+        <div class="index_cont">
+          <img class="i" src = "night sky ptotos\5 Galaxies\5 Interacting Galaxy\Hubble_Interacting_Galaxy_NGC_6050_(2008-04-24).jpg" width="500" height="400">
+          <div class="overlay" >Interacting Galaxies -NGC_6050</div>
+        </div>
+        <h2 class="zoom">"My Astronomy Guide" is a great place to learn a lot many aspects related to Astronomy.</h2>
+        <h2 class="zoom">Do explore to deep dive into the ocean of Astronomy!!</h2>
+      </article>
+    </section>
+    <footer>
+      <p>Author: Ojas Deodhar</p>
+      <button id="id2" class="btn1" data-bs-toogle="tooltip" title="Contact Us" onclick="document.location='contact.html'">Contact Us</button>
+      <button id="id2" class="btn2" data-bs-toogle="tooltip" title="Give Feedback" onclick="document.location='RateUs.html'">Rate Us</button>
+    </footer>
+<!--
+    <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.7/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyCKBi-u9FochOpoChxWxfbFLXdJ3KmCwkQ",
+    authDomain: "my-astronomy-guide.firebaseapp.com",
+    projectId: "my-astronomy-guide",
+    storageBucket: "my-astronomy-guide.appspot.com",
+    messagingSenderId: "776444773800",
+    appId: "1:776444773800:web:942fc20c3634d2f681899d",
+    measurementId: "G-Z2ZYPVDP8J"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
+-->
   </body>
 </html>

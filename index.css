@@ -1,0 +1,296 @@
+body
+{
+  background-color: #DEEDF0;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+  align-self: center;
+}
+
+h1
+{
+  color: #1A1A40;
+  text-align: center;
+  align-items: center;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+h2
+{
+  color: #1A1A40;
+  text-align: center;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+h4
+{
+  color: blue;
+  text-align: center;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+tr
+{
+  align-content:center;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+td
+{
+  align:center;
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+}
+
+header {
+  background-color: #6867AC;
+  padding: 20px;
+  text-align: center;
+  align-content: center;
+  font-size: 30px;
+  color: white;
+}
+
+footer {
+  background-color: #6867AC;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+img.i
+{
+  height: 300px;
+  width: 400px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 20%;
+  height: auto; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 10px;
+  width: 80%;
+  background-color: #f1f1f1;
+  height: auto; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+img.c {
+  width:auto;
+  height:auto;
+}
+
+img.sc {
+  width:200px;
+  height:200px;
+}
+
+img.t {
+  width:400px;
+  height:350px;
+}
+
+img.m {
+  width:300px;
+  height:200px;
+}
+
+.btn {
+  background-color: #6867AC;
+  border: none;
+  color: white;
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 10px;
+  opacity: 0.9;
+  transition: 0.3s;
+  height: 30px;
+  width: 200px;
+}
+
+.btn:hover {opacity: 0.4}
+
+.btn1 {
+  background-color: #ff9900;
+  border: none;
+  color: white;
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 10px;
+  opacity: 0.9;
+  transition: 0.3s;
+  height: 30px;
+  width: 200px;
+}
+
+.btn1:hover {opacity: 0.4}
+
+.btn2 {
+  background-color: #3333ff;
+  border: none;
+  color: white;
+  padding: 30px 30px;
+  text-align: center;
+  font-size: 16px;
+  margin: 10px 10px;
+  opacity: 0.9;
+  transition: 0.3s;
+  height: 30px;
+  width: 200px;
+}
+
+.btn2:hover {opacity: 0.4}
+
+.zoom {
+  padding: 20px;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1);
+}
+/*
+.c {
+  padding: 5px;
+  transition: transform .2s;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.c:hover {
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+*/
+input[type=text], input[type=email], input[type=number] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password], input[type=number]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.index_cont_1 {
+  position: relative;
+  width: 100%;
+  max-width: auto;
+}
+
+.index_cont {
+  position: relative;
+  width: 50%;
+  max-width: auto;
+}
+
+.i {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.sc {
+  display: block;
+  width:200px;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1;
+  width: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.index_cont:hover .overlay {
+  opacity: 1;
+}
+
+.index_cont_1:hover .overlay {
+  opacity: 1;
+}
+
+.b{
+  color: black;
+}
