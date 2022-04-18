@@ -6,19 +6,3 @@ function validateRating() {
     document.getElementById("d1").innerHTML = "Thank You ";
   }
 }
-
-function toolTipHoover(){
-  const inOb = document.getElementById("id2");
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toogle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerE1)){
-    return new bootstrap.Tooltip(tooltipTriggerE1)
-  }
-}
-
-function toolTipHooverPhoto(){
-  const inOb1 = document.getElementById("id3");
-  var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toogle="tooltip"]'))
-  var tooltipList = tooltipTriggerList.map(function(tooltipTriggerE1)){
-    return new bootstrap.Tooltip(tooltipTriggerE1)
-  }
-}

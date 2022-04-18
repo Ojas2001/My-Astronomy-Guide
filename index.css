@@ -1,6 +1,6 @@
 body
 {
-  background-color: #DEEDF0;
+  background-color: #80bfff;
   align-items: center;
   font-family: sans-serif;
   justify-content: center;
@@ -17,6 +17,15 @@ h1
 }
 
 h2
+{
+  color: #1A1A40;
+  text-align: center;
+  font-family: sans-serif;
+  align-items: center;
+  justify-content: center;
+}
+
+h3
 {
   color: #1A1A40;
   text-align: center;
@@ -44,7 +53,7 @@ tr
 
 td
 {
-  align:center;
+  align-items:center;
   font-family: sans-serif;
   text-align: center;
   align-items: center;
@@ -61,10 +70,11 @@ header {
 
 footer {
   background-color: #6867AC;
-  padding: 10px;
+  padding: 20px;
   text-align: center;
   color: white;
 }
+
 
 img.i
 {
@@ -82,7 +92,7 @@ nav {
   width: 20%;
   height: auto; /* only for demonstration, should be removed */
   background: #ccc;
-  padding: 30px;
+  padding: 20px;
 }
 
 /* Style the list inside the menu */
@@ -93,15 +103,14 @@ nav ul {
 
 article {
   float: left;
-  padding: 10px;
+  padding: 20px;
   width: 80%;
-  background-color: #f1f1f1;
-  height: auto; /* only for demonstration, should be removed */
+  background-color: #80bfff;
+  height: auto;
 }
 
 /* Clear floats after the columns */
 section::after {
-  content: "";
   display: table;
   clear: both;
 }
@@ -111,6 +120,7 @@ section::after {
   nav, article {
     width: 100%;
     height: auto;
+
   }
 }
 
@@ -138,54 +148,10 @@ img.m {
   width:300px;
   height:200px;
 }
-
-.btn {
-  background-color: #6867AC;
-  border: none;
-  color: white;
-  padding: 30px 30px;
-  text-align: center;
-  font-size: 16px;
-  margin: 10px 10px;
-  opacity: 0.9;
-  transition: 0.3s;
-  height: 30px;
-  width: 200px;
+img.s {
+  width: auto;
+  height: 200px;
 }
-
-.btn:hover {opacity: 0.4}
-
-.btn1 {
-  background-color: #ff9900;
-  border: none;
-  color: white;
-  padding: 30px 30px;
-  text-align: center;
-  font-size: 16px;
-  margin: 10px 10px;
-  opacity: 0.9;
-  transition: 0.3s;
-  height: 30px;
-  width: 200px;
-}
-
-.btn1:hover {opacity: 0.4}
-
-.btn2 {
-  background-color: #3333ff;
-  border: none;
-  color: white;
-  padding: 30px 30px;
-  text-align: center;
-  font-size: 16px;
-  margin: 10px 10px;
-  opacity: 0.9;
-  transition: 0.3s;
-  height: 30px;
-  width: 200px;
-}
-
-.btn2:hover {opacity: 0.4}
 
 .zoom {
   padding: 20px;
@@ -198,21 +164,7 @@ img.m {
   -webkit-transform: scale(1.1); /* Safari 3-8 */
   transform: scale(1.1);
 }
-/*
-.c {
-  padding: 5px;
-  transition: transform .2s;
-  width: 200px;
-  height: 200px;
-  margin: 0 auto;
-}
 
-.c:hover {
-  -ms-transform: scale(1.5);
-  -webkit-transform: scale(1.5);
-  transform: scale(1.5);
-}
-*/
 input[type=text], input[type=email], input[type=number] {
   width: 100%;
   padding: 15px;
@@ -239,7 +191,7 @@ input[type=text]:focus, input[type=password], input[type=number]:focus {
 }
 
 
-  hr {
+hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }
@@ -289,8 +241,4 @@ input[type=text]:focus, input[type=password], input[type=number]:focus {
 
 .index_cont_1:hover .overlay {
   opacity: 1;
-}
-
-.b{
-  color: black;
 }
